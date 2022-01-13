@@ -1,0 +1,157 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.flex {
+  display: flex;
+}
+.whole-content {
+  background-color: #fefefe;
+  width: 100vw;
+  height: 100vh;
+}
+.left {
+  width: 35%;
+  background-color: #f3dad8;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #f3dad8;
+}
+.logo {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.myLogoImg {
+  width: 200px;
+  height: 200px;
+}
+.footer {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.right {
+  width: 65%;
+  background-color: #fefefe;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.nav {
+  height: 0;
+  width: 100%;
+  justify-content: flex-end;
+}
+.hamburger {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.stripes {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+.big-stripe {
+  width: 10%;
+  height: 5px;
+  background-color: #d6d9ce;
+  margin: 6px 0;
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  left: 46%;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.heading-container {
+  width: 40%;
+  padding-left: 60px;
+}
+.buttons {
+  justify-content: space-around;
+}
+.my-img {
+  position: absolute;
+  z-index: 1;
+  max-width: 35%;
+  max-height: 90%;
+  height: auto;
+  width: auto;
+  top: 50px;
+  left: 20%;
+  box-shadow: 5px 10px 50px #464444;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 100;
+  text-shadow: 2px 1px 2px black;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+span {
+  color: #d6d9ce;
+  font-weight: 700;
+}
+h2 {
+  font-size: 25px;
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  line-height: 25px;
+  font-weight: 100;
+  font-size: 17px;
+}
+.round {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: larger;
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+  outline: none;
+  transition: all 0.5s;
+}
+.left-btn {
+  background-color: #d6d9ce;
+  border: none;
+}
+.right-btn {
+  background-color: transparent;
+}
+.round:hover {
+  background-color: #f3dad8;
+}
+.round:active {
+  background-color: #f4c3c2;
+}
+table {
+  text-align: left;
+  width: 40%;
+}
+th {
+  padding-bottom: 10px;
+}
+td {
+  padding-bottom: 20px;
+}
+.social-media {
+  justify-content: space-around;
+}
+.social-a {
+  color: #464444;
+  transition: 0.5s;
+}
+.social-a:hover {
+  opacity: 0.7;
+}
+a {
+  text-decoration: none;
+}
