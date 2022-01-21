@@ -1,0 +1,39 @@
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .whole-content {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+  }
+  .my-img {
+    top: 8%;
+    left: 40%;
+  }
+  .big-stripe {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+  footer {
+    width: 60%;
+  }
+  table {
+    text-align: center;
+  }
+  .right {
+    width: 85%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .heading-container {
+    width: 60%;
+    padding-left: 0;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+}
